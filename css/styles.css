@@ -11,11 +11,7 @@
 
 body{
     font-family: "Roboto",sans-serif;
-    font-weight: 400;
     font-size: 16px;
-    font-weight: 1.5;
-    line-height: 24px;
-    letter-spacing: 0.02em;
     color: var(--base-text-color);
     background-color: var(--primary-text-color);
 }
@@ -120,9 +116,6 @@ color: var(--title-text-color);
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: var(--title-text-color);
-}
-.item-fase{
-    border: 1px solid var(--bth-secondary-color);
 }
 .item-man{
     mix-blend-mode: normal;
