@@ -63,7 +63,7 @@ body{
 }
 .section-third{
     padding-bottom: 120px;
-
+    width: calc((100%-72px) /4);
 }
 .phone-list{
     display: flex;
@@ -212,4 +212,27 @@ padding: 24px 0;
 .portfolio-button:hover,.portfolio-button:focus{
     color: var(--primary-text-color);
     background-color: var(--bth-hover-color);
+    border: 1px solid transparent;
+}
+.section{
+    padding: 96px 120px;
+}
+.button-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+.portfolio-button{
+    padding: 12px 24px;
+    border-radius: 4px;
+}
+.card-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.card{
+    width: calc((100%-48px) /3);
 }
