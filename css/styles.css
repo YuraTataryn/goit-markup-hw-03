@@ -46,6 +46,7 @@ body{
     --bth-hover-color: #404bbf;
     --bth-secondary-color: #e7e9fc;
     --second-white-text: #f4f4fd;
+    --bottom-color: #e7e9fc;
 }
 .section-first{
     background: var(--title-text-color);
@@ -206,6 +207,7 @@ padding: 24px 0;
     cursor: pointer;
     color: var(--accent-color);
     background-color: var(--second-white-text);
+    border: 1px solid var(--bottom-color);
 }
 .portfolio-button:hover,.portfolio-button:focus{
     color: var(--primary-text-color);
@@ -233,4 +235,10 @@ padding: 24px 0;
 }
 .card{
     width: calc((100%-48px) /3);
+}
+.box-image{
+    padding: 32px 16px;
+    border: 1px solid var(--bottom-color);
+    border-top: none;
+    margin-bottom: 8px;
 }
