@@ -3,6 +3,7 @@
 *::after{
     box-sizing: border-box;
 }
+
 .header{
     display: flex;
     align-items: center;
