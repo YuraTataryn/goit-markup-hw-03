@@ -60,8 +60,16 @@ body{
 .item-text{
     width: calc((100%-72px)/4);
 }
-.caption{
-    margin-bottom: 8px;
+.section-third{
+    padding-bottom: 120px;
+
+}
+.phone-list{
+    display: flex;
+    gap: 24px;
+}
+.item-fase{
+    width: calc((100%-48px)/3);
 }
 .logo-link{
     font-family: "Raleway",sans-serif;
@@ -139,6 +147,7 @@ padding: 24px 0;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--title-text-color);
+        margin-bottom: 8px;
 }
 .text{
         font-size: 16px;
@@ -155,6 +164,7 @@ padding: 24px 0;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: var(--title-text-color);
+        margin-bottom: 72px;
 }
 .footer{
     background-color: var(--title-text-color);
