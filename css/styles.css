@@ -7,8 +7,30 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid #e7e9fc;
 }
-
+.box{
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 1158px;
+    margin: auto;
+    padding: 0 15px;
+}
+.nav-contact{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+.contacts-list{
+    display: flex;
+    gap: 40px;
+}
+.mail-list{
+    display: flex;
+    gap: 40px;
+}
 body{
     font-family: "Roboto",sans-serif;
     font-size: 16px;
@@ -35,6 +57,7 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--accent-color);
+    margin-right: 76px;
 }
 .dark-logo{
     color: var(--title-text-color);
@@ -47,10 +70,6 @@ body{
 }
 .list{
     list-style: none;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 10px;
 }
 .contact-link{
 font-weight: 500;
@@ -58,6 +77,7 @@ font-size: 16px;
 letter-spacing: 0.02em;
 line-height: 1.5;
 color: var(--title-text-color);
+padding: 24px 0;
 }
 .contacts-link {
     font-size: 16px;
@@ -73,6 +93,9 @@ color: var(--title-text-color);
 }
 .header-contacts{
     font-style: normal;
+}
+.section-first{
+    background: var(--title-text-color);
 }
 .title {
     font-size: 56px;
