@@ -48,6 +48,9 @@ body{
     --second-white-text: #f4f4fd;
     --bottom-color: #e7e9fc;
 }
+h1,h2,h3,h4,h5,h6,p,ul{
+    margin: 0;
+}
 .section-first{
     background: var(--title-text-color);
     padding: 188px 0;
