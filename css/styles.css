@@ -233,7 +233,7 @@ padding: 24px 0;
     row-gap: 48px;
 }
 .card{
-    width: calc((100%-48px)/ 3);
+    width: calc((100% - 8px) / 3);
 }
 .box-image{
     padding: 32px 16px;
