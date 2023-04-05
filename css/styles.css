@@ -64,7 +64,6 @@ body{
 }
 .section-third{
     padding-bottom: 120px;
-    width: calc((100%-72px) /4);
 }
 .phone-list{
     display: flex;
