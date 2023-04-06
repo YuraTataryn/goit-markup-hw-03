@@ -10,6 +10,9 @@
     justify-content: space-between;
     border-bottom: 1px solid var(--bottom-color);
 }
+.header-contacts{
+    font-style: normal;
+}
 .box{
     display: flex;
     align-items: center;
@@ -77,6 +80,7 @@ h1,h2,h3,h4,h5,h6,p,ul{
 }
 .section-fourth{
     padding: 120px 0;
+    background-color: var(--second-white-text);
 }
 .fase-list{
     display: flex;
@@ -84,9 +88,11 @@ h1,h2,h3,h4,h5,h6,p,ul{
 }
 .item-man{
     flex-basis: calc((100% - 3 * 24px) / 4);
+    background-color: var(--primary-text-color);
 }
 .holder{
     padding: 32px 16px;
+    text-align: center;
     border-radius: 0px 0px 4px 4px;
 }
 .logo-link{
@@ -98,8 +104,6 @@ h1,h2,h3,h4,h5,h6,p,ul{
     text-transform: uppercase;
     color: var(--accent-color);
     margin-right: 76px;
-    display: inline-block;
-    margin-bottom: 16px;
 }
 .dark-logo{
     color: var(--title-text-color);
@@ -122,6 +126,7 @@ letter-spacing: 0.02em;
 line-height: 1.5;
 color: var(--title-text-color);
 padding: 24px 0;
+display: block;
 }
 .contacts-link {
     font-size: 16px;
@@ -170,19 +175,16 @@ padding: 24px 0;
         letter-spacing: 0.02em;
         color: var(--title-text-color);
         margin-bottom: 8px;
-        text-align: center;
 }
 .text{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--base-text-color);
-        text-align: center;
 }
 .subject{
         font-weight: 700;
         font-size: 36px;
-        line-height: 40px;
         line-height: 1.11;
         text-align: center;
         letter-spacing: 0.02em;
@@ -200,6 +202,18 @@ padding: 24px 0;
     letter-spacing: 0.02em;
     color: var(--second-white-text);
     max-width: 264px;
+}
+.footer-logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--accent-color);
+    margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 /* portfolio */
 .portfolio-button{
@@ -244,7 +258,6 @@ padding: 24px 0;
     padding: 32px 16px;
     border: 1px solid var(--bottom-color);
     border-top: none;
-    margin-bottom: 8px;
 }
 img{
     display: block;
